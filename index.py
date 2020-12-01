@@ -60,6 +60,7 @@ def perform_arithmetic_coding():
     w.grid(row=0,column=0,columnspan=2)
     panel.grid(row = 1, column = 0,columnspan = 2, rowspan = 2, padx = 5, pady = 5)
     b1['text']="Reset and browse new image"  
+
 def reset_btn():
     l1F.destroy()
     l2F.destroy()
